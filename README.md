@@ -36,12 +36,6 @@ En una terminal, inicia Ollama si todavía no está activo:
 ollama serve
 ```
 
-En otra terminal, desde este directorio, ejecuta:
-
-```bash
-streamlit run hola.py
-```
-
 Inicia la consola desde este directorio:
 
 ```bash
