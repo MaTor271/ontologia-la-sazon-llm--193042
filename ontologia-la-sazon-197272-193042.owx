@@ -1,0 +1,697 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/197272/ontologies/2026/8/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/197272/ontologies/2026/8/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/197272/ontologies/2026/8/untitled-ontology-5/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Administracion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apoyo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AyudanteCocina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AyudanteMeseros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cajero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CapitanDeMeseros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChefEjecutivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChefPartida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cliente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cocina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Empleado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entrada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entrega"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gerencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hostess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingrediente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Limpieza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Local"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mantenimiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mesa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meseros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pedido"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Persona"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Postre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Premium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Principal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proveedor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recepcionista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalonPrincipal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seguridad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Servicio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subgerente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terraza"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#asigna"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#atendidoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#atiendeMesa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contiene"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esEntrega"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#loOfrece"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ordenaIngrediente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ordenaPlatillo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preparaMesa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#provee"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reservaMesa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneComoIngrediente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#utiliza"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#vaDentro"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#vaTerraza"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cantidadAcompanantes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cantidadPlatos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#capacidadPersonas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dispuestoGasto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#especialista"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#estado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#horario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#horarioSalida"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nivelConfianza"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numPedido"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroMesa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#peso"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pesoUsado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#precio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tiempoEntrega"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tiempoPreparacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneNombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneNombreIngrediente"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneNombrePlato"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#total"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#volumen"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#volumenUsado"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Administracion"/>
+        <Class IRI="#Empleado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apoyo"/>
+        <Class IRI="#Empleado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AyudanteCocina"/>
+        <Class IRI="#Cocina"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AyudanteMeseros"/>
+        <Class IRI="#Servicio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cajero"/>
+        <Class IRI="#Apoyo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CapitanDeMeseros"/>
+        <Class IRI="#Servicio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChefEjecutivo"/>
+        <Class IRI="#Cocina"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChefPartida"/>
+        <Class IRI="#Cocina"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cliente"/>
+        <Class IRI="#Persona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cocina"/>
+        <Class IRI="#Empleado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compras"/>
+        <Class IRI="#Administracion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contador"/>
+        <Class IRI="#Administracion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empleado"/>
+        <Class IRI="#Persona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entrada"/>
+        <Class IRI="#Plato"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entrega"/>
+        <Class IRI="#Pedido"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General"/>
+        <Class IRI="#Gerencia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gerencia"/>
+        <Class IRI="#Empleado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hostess"/>
+        <Class IRI="#Servicio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Limpieza"/>
+        <Class IRI="#Apoyo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Local"/>
+        <Class IRI="#Pedido"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mantenimiento"/>
+        <Class IRI="#Apoyo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meseros"/>
+        <Class IRI="#Servicio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal"/>
+        <Class IRI="#Cliente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Postre"/>
+        <Class IRI="#Plato"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Premium"/>
+        <Class IRI="#Cliente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Principal"/>
+        <Class IRI="#Plato"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proveedor"/>
+        <Class IRI="#Persona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recepcionista"/>
+        <Class IRI="#Administracion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalonPrincipal"/>
+        <Class IRI="#Mesa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seguridad"/>
+        <Class IRI="#Apoyo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Servicio"/>
+        <Class IRI="#Empleado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subgerente"/>
+        <Class IRI="#Gerencia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terraza"/>
+        <Class IRI="#Mesa"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#asigna"/>
+        <Class IRI="#Servicio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atendidoPor"/>
+        <Class IRI="#Local"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atiendeMesa"/>
+        <Class IRI="#AyudanteMeseros"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atiendeMesa"/>
+        <Class IRI="#CapitanDeMeseros"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atiendeMesa"/>
+        <Class IRI="#Meseros"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contiene"/>
+        <Class IRI="#Pedido"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esEntrega"/>
+        <Class IRI="#Entrega"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#loOfrece"/>
+        <Class IRI="#Postre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ordenaIngrediente"/>
+        <Class IRI="#Compras"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ordenaPlatillo"/>
+        <Class IRI="#Cliente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preparaMesa"/>
+        <Class IRI="#Cocina"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#provee"/>
+        <Class IRI="#Proveedor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#reservaMesa"/>
+        <Class IRI="#Cliente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneComoIngrediente"/>
+        <Class IRI="#Plato"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#utiliza"/>
+        <Class IRI="#Cocina"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#vaDentro"/>
+        <Class IRI="#Normal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#vaTerraza"/>
+        <Class IRI="#Premium"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#asigna"/>
+        <Class IRI="#Mesa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#atendidoPor"/>
+        <Class IRI="#AyudanteMeseros"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#atendidoPor"/>
+        <Class IRI="#CapitanDeMeseros"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#atendidoPor"/>
+        <Class IRI="#Meseros"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#atiendeMesa"/>
+        <Class IRI="#Mesa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contiene"/>
+        <Class IRI="#Plato"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esEntrega"/>
+        <Class IRI="#Hostess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#loOfrece"/>
+        <Class IRI="#CapitanDeMeseros"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#loOfrece"/>
+        <Class IRI="#Hostess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ordenaIngrediente"/>
+        <Class IRI="#Proveedor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ordenaPlatillo"/>
+        <Class IRI="#Pedido"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preparaMesa"/>
+        <Class IRI="#Mesa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#provee"/>
+        <Class IRI="#Ingrediente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#reservaMesa"/>
+        <Class IRI="#Mesa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneComoIngrediente"/>
+        <Class IRI="#Ingrediente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#utiliza"/>
+        <Class IRI="#Ingrediente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#vaDentro"/>
+        <Class IRI="#SalonPrincipal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#vaTerraza"/>
+        <Class IRI="#Terraza"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cantidadAcompanantes"/>
+        <Class IRI="#Cliente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cantidadPlatos"/>
+        <Class IRI="#Pedido"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#capacidadPersonas"/>
+        <Class IRI="#Mesa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dispuestoGasto"/>
+        <Class IRI="#Cliente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#especialista"/>
+        <Class IRI="#Cocina"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#estado"/>
+        <Class IRI="#Mesa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#horario"/>
+        <Class IRI="#Empleado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#horarioSalida"/>
+        <Class IRI="#Empleado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nivelConfianza"/>
+        <Class IRI="#Proveedor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numPedido"/>
+        <Class IRI="#Pedido"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroMesa"/>
+        <Class IRI="#Mesa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#peso"/>
+        <Class IRI="#Ingrediente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pesoUsado"/>
+        <Class IRI="#Plato"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#precio"/>
+        <Class IRI="#Ingrediente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#precio"/>
+        <Class IRI="#Plato"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tiempoEntrega"/>
+        <Class IRI="#Proveedor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tiempoPreparacion"/>
+        <Class IRI="#Plato"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneNombre"/>
+        <Class IRI="#Persona"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneNombreIngrediente"/>
+        <Class IRI="#Ingrediente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneNombrePlato"/>
+        <Class IRI="#Plato"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#total"/>
+        <Class IRI="#Pedido"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#volumen"/>
+        <Class IRI="#Ingrediente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#volumenUsado"/>
+        <Class IRI="#Plato"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#cantidadAcompanantes"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cantidadPlatos"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#capacidadPersonas"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dispuestoGasto"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#especialista"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#estado"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#horario"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#horarioSalida"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nivelConfianza"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numPedido"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroMesa"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#peso"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pesoUsado"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#precio"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tiempoEntrega"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tiempoPreparacion"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneNombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneNombreIngrediente"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneNombrePlato"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#total"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#volumen"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#volumenUsado"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
